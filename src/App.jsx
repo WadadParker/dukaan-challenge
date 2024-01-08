@@ -1,16 +1,15 @@
 import Navbar from "./components/Navbar"
 import Sidebar from "./components/Sidebar"
+import MainContainer from "./components/MainContainer"
 
 function App() {
 
 
   return (
 
-      <div className=" h-[1080px] bg-[#FAFAFA] flex w-screen">
+      <div className="h-fit bg-[#FAFAFA] flex w-screen">
         <Sidebar />
-        <section className="grow">
-          <Navbar />
-        </section>
+        <MainContainer />
     </div>
     
   )
