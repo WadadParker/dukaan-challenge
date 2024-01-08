@@ -7,7 +7,7 @@ function App() {
 
   return (
 
-      <div className="h-fit bg-[#FAFAFA] flex w-screen">
+      <div className="min-h-screen max-h-fit bg-[#FAFAFA] flex w-screen">
         <Sidebar />
         <MainContainer />
     </div>

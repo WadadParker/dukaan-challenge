@@ -21,7 +21,7 @@ const PayoutCard = () =>
             </header>
             <main className='flex items-center pb-8'>
                 <h1 className='grow text-white font-medium text-3xl'>₹2,312.23</h1>
-                <span className='font-medium underline text-white'>23 Orders</span>
+                <span className='font-medium underline text-white hover:cursor-pointer'>23 Orders</span>
                 <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                  <path fill-rule="evenodd" clip-rule="evenodd" d="M8.95696 5.29289C9.34748 4.90237 9.98064 4.90237 10.3712 5.29289L16.3712 11.2929C16.5587 11.4804 16.6641 11.7348 16.6641 12C16.6641 12.2652 16.5587 12.5196 16.3712 12.7071L10.3712 18.7071C9.98065 19.0976 9.34748 19.0976 8.95696 18.7071C8.56643 18.3166 8.56643 17.6834 8.95696 17.2929L14.2498 12L8.95696 6.70711C8.56643 6.31658 8.56643 5.68342 8.95696 5.29289Z" fill="white"/>
                 </svg>
@@ -51,7 +51,7 @@ const AmountCard=({processed})=>
             ?<h1 className='text-dark text-3xl font-medium grow'>₹23,92,312.19</h1>
             :(<main className='flex items-center'>
                 <h1 className='text-dark text-3xl font-medium grow'>₹92,312.20</h1>
-                <span className='font-medium underline text-secondary'>23 Orders</span>
+                <span className='font-medium underline text-secondary hover:cursor-pointer'>23 Orders</span>
                 <svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" viewBox="0 0 25 24" fill="none">
                 <   path fill-rule="evenodd" clip-rule="evenodd" d="M8.62102 5.29289C9.01154 4.90237 9.64471 4.90237 10.0352 5.29289L16.0352 11.2929C16.2228 11.4804 16.3281 11.7348 16.3281 12C16.3281 12.2652 16.2228 12.5196 16.0352 12.7071L10.0352 18.7071C9.64471 19.0976 9.01154 19.0976 8.62102 18.7071C8.23049 18.3166 8.23049 17.6834 8.62102 17.2929L13.9139 12L8.62102 6.70711C8.23049 6.31658 8.23049 5.68342 8.62102 5.29289Z" fill="#146EB4"/>
                 </svg>
