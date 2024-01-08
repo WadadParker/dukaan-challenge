@@ -38,7 +38,7 @@ const PayoutCard = () =>
 const AmountCard=({processed})=>
 {
     return (
-        <li className='rounded-lg grow flex flex-col space-y-4 p-5 bg-white shadow-lg'>
+        <li className='rounded-lg grow flex flex-col space-y-4 p-5 bg-white' style={{boxShadow: "0px 2px 6px 0px rgba(26, 24, 30, 0.04)"}}>
             <header className='flex space-x-2 items-center text-text'>
                 <h1 className=''>Amount Pending</h1>
                 <svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">

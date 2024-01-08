@@ -113,7 +113,7 @@ const TableCardItem=({orderId,successful,transactionID,refundDate,orderAmount})=
 
 const Table = () => {
   return (
-    <div className="bg-white border border-white shadow-lg rounded-lg p-3 space-y-3">
+    <div className="bg-white border border-white  rounded-lg p-3 space-y-3" style={{boxShadow: "0px 2px 6px 0px rgba(26, 24, 30, 0.04)"}}>
         <TableFilters />
         <table className=' w-full text-left border-collapse '>
             <tr className="table-headers bg-[#F2F2F2] rounded">
