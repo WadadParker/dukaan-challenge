@@ -14,7 +14,7 @@ const SearchBar =()=>
                 </clipPath>
                 </defs>
             </svg>
-            <input className='grow outline-none bg-transparent leading-[22px] placeholder:text-[#808080]' placeholder='Search features, tutorials, etc.'/>
+            <input className='grow text-[15px] outline-none bg-transparent leading-[22px] placeholder:text-[#808080]' placeholder='Search features, tutorials, etc.'/>
 
         </div>
     )
@@ -22,8 +22,8 @@ const SearchBar =()=>
 
 const Navbar = () => {
   return (
-    <nav className='bg-white flex w-full items-center px-8 py-3 space-x-4 sticky top-0 z-10'>
-        <p>Payments</p>
+    <nav className='bg-white flex w-full items-center px-8 py-3 space-x-4 sticky top-0 z-30'>
+        <p className=' text-xl font-medium'>Payouts</p>
         <aside className='flex items-center space-x-2.5 grow'>
             <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <g clip-path="url(#clip0_5730_2522)">
