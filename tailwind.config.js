@@ -12,6 +12,7 @@ export default {
         "background-light":"#E6E6E6",
         "text":"#4D4D4D",
         "text-dark":"#1A181E",
+        "secondary":"#146EB4"
       }
     },
   },
