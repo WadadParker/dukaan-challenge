@@ -5,7 +5,7 @@ function App() {
 
   return (
 
-      <div className=" h-fit">
+      <div className=" h-[1080px]">
         <Sidebar />
     </div>
     
