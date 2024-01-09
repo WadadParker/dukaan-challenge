@@ -37,9 +37,9 @@ const AvailbleCredits=()=>
     )
 }
 
-const Sidebar = () => {
+const Sidebar = ({showSidebar}) => {
   return (
-    <div className=' w-56 bg-primary px-2.5 py-4 flex flex-col sticky top-0 h-screen'>
+    <div className={`w-56 bg-primary px-2.5 py-4 flex flex-col sticky top-0 h-screen max-sm:min-w-56 ${showSidebar?"":"max-sm:hidden"}`}>
 
         <ProfileHeader />
         <ul className='space-y-1 mt-6 grow'>
