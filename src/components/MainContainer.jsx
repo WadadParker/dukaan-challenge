@@ -3,10 +3,11 @@ import Navbar from './Navbar'
 import Table from './Table'
 import OverviewCards from './OverviewCards'
 
-const MainContainer = ({setShowSidebar}) => {
+const MainContainer = ({showSidebar,setShowSidebar}) => {
   return (
-    <div className="grow">
-          <Navbar setShowSidebar={setShowSidebar}/>
+    <div className="grow relative">
+      {showSidebar && <div className='fixed w-full h-full z-10 bg-black/80 md:hidden'></div>}
+          <Navbar showSidebar={showSidebar} setShowSidebar={setShowSidebar}/>
           <main className=' p-8 space-y-6 max-sm:p-0 max-sm:mt-2 max-sm:space-y-4'>
             <section className='flex justify-between items-center max-sm:mx-2'>
               <h1 className='text-text-dark text-xl font-medium max-sm:text-lg '>Overview</h1>

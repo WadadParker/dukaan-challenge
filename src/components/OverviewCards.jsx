@@ -62,7 +62,7 @@ const AmountCard=({processed})=>
 
 const OverviewCards = () => {
   return (
-    <ul className='flex items-start space-x-5 max-sm:flex-col max-sm:space-x-0 max-sm:space-y-3 max-sm:w-screen max-sm:items-center '>
+    <ul className=' flex items-start space-x-5 max-sm:flex-col max-sm:space-x-0 max-sm:space-y-3 max-sm:w-screen max-sm:items-stretch max-sm:px-3'>
         <PayoutCard />
         <AmountCard />
         <AmountCard processed={true} />
